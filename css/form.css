@@ -1,0 +1,62 @@
+body{
+      background-image: url('/Users/nirmalrajdharanikumar/Desktop/css_pratice/image/love.jpg');
+    
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+}
+.regform{
+
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 400px auto 400px auto;
+    color: whitesmoke;
+    padding: 10px 20px 30px ;
+    font-size: 25px;
+
+}
+.regform h3{
+    /* create palette */
+    text-align: center;
+    color: rgba(241, 116, 116, 0.886);
+    font-size: 35px;
+    font-family: fantasy bold;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    
+}
+.textlabel {
+    display:block;
+}
+.input input{
+    width: 100%;
+    font-size: 1em;
+    box-shadow: 10px;
+    border-radius:10px ;
+    padding: 5px 8px;
+    /* to avoid over flow */
+    box-sizing: border-box;
+    margin: 5px 0px 10px
+}
+input:focus{
+    background-color:rgba(241, 116, 116, 0.76);
+}
+button{
+    background-color:rgba(241, 116, 116, 0.76);
+    font-size: 1em;
+    padding: 5px 8px;
+    border-radius: 30px;
+   margin-top: 25px;
+    
+}
+.btn{
+    text-align: center;
+}
+.radio input{
+    /* cahnge color*/
+    accent-color:rgba(241, 116, 116, 0.886); 
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform:scale(1.5) ;
+}
+
